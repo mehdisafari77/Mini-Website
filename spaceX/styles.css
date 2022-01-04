@@ -61,7 +61,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    height: 620px;
+    height: 920px;
 }
 .mission-text-container {
     margin-left: 70px;
@@ -90,17 +90,18 @@ header {
     font-family: 'Carrois Gothic SC', sans-serif;
     font-size: 18px;
 }
-/* .mission-container .button:hover {
+.mission-container .button:hover {
     background-color: #fff;
+    color: #111;
+    border: none;
 }
-.button:hover {
+.mission-container .button a:hover {
     color: #111;
 }
-
 .mission-container button a{
     color: #fff;
     text-decoration: none;
-} */
+}
 #first-mission {
     background-image: url("./images/crs241.jpeg");
     background-size: cover;
