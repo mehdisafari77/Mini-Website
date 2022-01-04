@@ -15,32 +15,44 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 40px;
 }
 #nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.header-left {
+    margin-right: 40px;
+}
+.header-right {
+    margin-left: 40px;
+}
 #nav1 {
     display: flex;
 }
 #nav1 a{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 15px;
     color: #fff;
     text-decoration: none;
+    margin-right: 30px;
 }
 #nav1 a:hover{
-    color: #fff;
     text-decoration: underline;
 }
 #nav2 {
     display: flex;
 }
 #nav2 a{
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 15px;
     display: flex;
     color: #fff;
     text-decoration: none;
-    margin: 30px;
+}
+#nav2 a:hover{
+    text-decoration: underline;
 }
 .mission-container {
     position: relative;
