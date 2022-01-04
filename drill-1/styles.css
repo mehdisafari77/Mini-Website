@@ -4,35 +4,29 @@
     flex-direction: column;
     width: 100vw;
 }
-
 #top-box {
     background-color: rgb(43, 42, 41);
     height: 20vh;
 }
-
 #center-body {
     display: flex;
     width: 100vw;
 }
-
 #left-rect {
     background-color: rgb(194, 191, 191);
     height: 80vh;
     width: 20vw;
 }
-
 #center2-body {
     display: flex;
     flex-direction: column;
     height: 80vh;
 }
-
 #top-sq {
     background-color: #fff;
     height: 70vh;
     width: 60vw;
 }
-
 #bottom-rect {
     background-color: black;
     height: 10vh;
